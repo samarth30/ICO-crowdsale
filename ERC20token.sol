@@ -18,6 +18,7 @@ contract ERC20 is ERC20Interface{
     uint8 public decimals;
     uint public totalSupply;
     
+
     mapping(address => uint) public balances;
     mapping(address => mapping(address => uint)) public allowed;
     
