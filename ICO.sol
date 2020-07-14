@@ -10,6 +10,7 @@ contract ICO{
     Sale[] public sales;
     mapping(address => bool) investors;
     
+
     address public token;
     address public admin;
     uint public end;
